@@ -1,0 +1,49 @@
+body{
+	background-color:  #D8D8D8
+	;
+    font-size: 16px;
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+   }
+
+
+/****HEADER******/
+
+#header-nav{
+  background-color:#F0F0F0 ;
+  border-radius: 0px;
+  border:0px;
+  height: 200px;
+
+}
+
+#logo-img{	
+	background: url("../try3.png")no-repeat;
+	width:350px;
+	height: 80px;
+	margin-right:446px;
+    margin-left: 300px;
+    margin-top:10px;
+	font-family: 'Libre Baskerville', serif;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	padding:0px; 
+	background-position: center;
+    
+}
+
+
+
+ hr {
+	border-color: gray;
+	margin-top: 0px;
+    margin-left: 0px;
+}
+
+.container{
+	margin-left: 0px;
+	padding: 0px;
+	margin-right:0px;
+
+}

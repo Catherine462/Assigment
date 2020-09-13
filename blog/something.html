@@ -1,0 +1,114 @@
+<div class="navbar-header">
+           
+         <div class="social pull-left">
+          	<a href="#" class="fa fa-facebook pull-left"></a>
+             <a href="#" class="fa fa-instagram pull-left"></a>
+          </div>
+            <a href="index.html" class="pull-center ">
+            <div id="logo-img" alt="Logo image"></div>
+		    </a>
+         
+       
+          
+          <ul id="nav-lists" class="nav navbar-nav navbar-right">
+         
+           
+            
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+      
+</div>     
+         <div id="collapsable-nav" class="collapse navbar-collapse">
+         
+        
+    <ul id="nav-list" class="nav navbar-nav navbar-center">
+          
+            <li id="lifestyle" >
+            <a href="lifestyles" class="left" style="color: black">
+            <br class=" hidden-xs">Lifestyle</a>
+            </li>           
+           
+            <li id="travel">
+            <a href="#" class="left" style="color: black">
+            <br class="hidden-xs">Travel</a>
+            </li>
+            
+            <li id="recipe">
+            <a href="#" class="left" style="color: black">
+            <br class="hidden-xs">Recipe</a>
+            </li>
+            
+            <li id="design" >
+            <a href="#" class="left" style="color: black">
+            <br class="hidden-xs">Design</a>
+            </li>
+            <li id="about" >
+            <a href="#" class="left" style="color: black">
+            <br class="hidden-xs"> About</a>
+            </li>
+           
+           
+          </ul>
+          <!-- #nav-list -->
+      
+        
+        </div><!-- .collapse .navbar-collapse -->
+     
+      <!-- .container -->
+    		  
+     
+					</nav>
+
+						</header>
+	
+
+
+
+
+jssssssssssssssssssssssssss
+
+
+
+var slideIndex = 0;
+showSlides();
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
