@@ -1,0 +1,406 @@
+body{
+	background-color:#F0F0F0;
+    font-size: 16px;
+    
+    font-family: 'Raleway', sans-serif;
+   }
+
+
+/****HEADER******/
+
+#header-nav{
+  background-color: #F0F0F0  ;
+  border-radius: 0px;
+  border:0px;
+  height: 90px;
+  color:#000000 ;
+
+
+}
+
+#collapsable-nav > ul > li {
+
+background:#F0F0F0;
+
+}
+#left{
+  bottom: 50px;
+}
+#logo-img{	
+	
+   background: url("../b.jpg");
+    background-repeat: no-repeat;
+     width: 150px;
+     height: 50px;
+     margin-left: 5px;
+     margin-top: 15px;
+
+}
+
+footer {
+   
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+
+
+
+
+
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    margin-top: 5px;
+}
+#hi{
+	box-sizing: border-box;
+	display: inline-block;
+	text-decoration: none;
+	margin-top: 10px;
+	margin-right: 0px;
+	
+	border-radius: 5em;
+	color:black;
+	font-size:13px;
+    
+    padding: 10px 15px;
+     border: solid black;
+      border-width: 2px; 
+      border-color:black;
+      padding: 5px 10px;
+      
+
+}
+
+#hi:hover{
+	background: black;
+	color: #F0F0F0;
+}
+.side a{
+  margin-right: 5px;
+  margin-top: 20px;
+}
+.side a:hover{
+  text-decoration: none;
+
+}
+/*.navbar-nav > li  { background-color:#F0F0F0;
+ }
+ #nav-list > li {
+ 	color: black;
+ }*/
+ .panel-footer{
+ 	background-color: black;
+ 	color: white;
+ }
+
+
+ * {box-sizing:border-box;
+  }
+
+
+#info a{
+	text-decoration: none;
+	margin-top: 25px;
+	margin-right: 15px;
+	color: black;
+	
+}
+
+ a.left{
+ 	position: relative;
+ 	color: black;
+ }
+ a.left:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+  color: black;
+}
+a.left:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+a #lifestyle{
+	color: black;
+}
+
+#slides{
+  color: #D8D8D8;
+  background-color: #D8D8D8 !important;
+  
+}
+.fa {
+  margin-left: 0px;
+  padding: 8px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin:8px;
+  height: 33px;
+    -moz-border-radius:75px;
+    -webkit-border-radius: 75px;
+  width: 33px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    text-decoration: none;
+    color: black;
+    background-color:#F0F0F0 ;
+    border-color: solid black;
+    border-width: 2px 
+}
+.fa-instagram {
+  margin-left: 0px;
+  background: black;
+  color: white;
+  margin-right: 0px;
+
+}
+.fa-facebook {
+ 
+  background: black;
+  color: white;
+
+  }
+.fa-twitter {
+ 
+  background: black;
+  color: white;
+   margin-left: 0px;
+   margin-right: 0px;
+ 
+ }
+
+.social{
+  float: left;
+}
+
+#lifestyle-tile{
+  background: url("../lifess.jpg")no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 120px;
+  
+  margin-left:20px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  text-align: center;
+  border-color: solid black;
+  border-width: 5px;
+}
+
+#recipe-tile,#design-tile,#travel-tile{
+  width: 100%;
+  height: 120px;
+  
+  margin-left:10px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#recipe-tile{
+  background: url("../pancake.jpg")no-repeat;
+   background-position: center;
+}
+#travel-tile{
+  background: url("../japan.jpg")no-repeat;
+  background-position: center;
+}
+#design-tile{
+  background: url("../clothes.jpg")no-repeat;
+  background-position: center;
+}
+#lifestyle-tiles,#recipe-tile,#design-tile,#travel-tile {
+  position: relative;
+  
+  color:white ;
+
+}
+.img-hover-zoom {
+  height: 300px; /* [1.1] Set it as per your need */
+   /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom span  {
+  transition: transform .5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom:hover  span {
+  transform: scale(1.2);
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+   background-color: white;
+   opacity:0.8;
+   width: 150px;
+  
+}
+
+.mySlides{
+  position: relative;
+
+}
+
+.mySlides .text{position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+   background-color: white;
+   opacity:0.5;
+   width: 300px;
+   height: 250px;
+   overflow: hidden;
+   margin-right: 50px;
+   
+
+font-family: 'Cinzel', serif;
+   font-size: 30PX;
+   text-align: center;
+     color: black;
+  padding-top: 90px; 
+
+}
+
+#sub{
+  text-decoration: none;
+  color: white
+}
+/* Slideshow container */
+.slideshow {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  text-decoration: none;
+  background-color: black;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3.5s;
+  animation-name: fade;
+  animation-duration: 3.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+
+
+/************************MEDIAA QUERIES********************/
+
+@media(min-width: 1200px){
+  .navbar .container{
+    width: 1000px;
+    margin-right: 0px;
+  }
+}
+
+@media(min-width: 768px)and(max-width:991px) {
+  .navbar .container{
+    width: 1050px;
+    margin-right: 0px;
+  }
+  #lifestyle-tile div{
+    background: url(../i.jpg);
+    width: 210px;
+    height: 200px;
+  }
+}
+/*******/
