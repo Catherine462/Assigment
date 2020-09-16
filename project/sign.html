@@ -1,104 +1,196 @@
+<!doctype html>
 <html>
-	<head>
-		<title>my webpage</title>
-		 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
-		 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
-		<style type="text/css">
-		
-			#registration{
-			
-				height:500px;
-				
-				width:450px;
-				margin:0 auto;
-				border:none
-				border-radius:0px;
-				background-color:black;
-				 opacity:0.5;
-				border-radius:20px;
-				
-				color: white;
-				
-				
-				
-	        }
-			
-			body{
-			
-				background-image:url("t.jpg");
-				background-repeat:no-repeat;
-				background-attachment:fixed;
-				background-size:cover;
-				
-				
-			color: white;
-			
-			}
-			
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AME</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-			
-		</style>
-		
-	<head>
-	
-	<body>
-		
-	
-		<div id="registration">
-			<div id= "sign in ">
-			    <span style="margin-left:150px; font-size:50px; margin-top:10px;font-family: 'Cinzel', serif;, sans-serif; color: white" >Sign Up</span>
-			 </div>  
-			   
-			   
-			   <span style="margin-left:30px; font-size:20px;position:realtive; top:20px;">First name</span>
-			   <div id= "first name">
-			   
-			     <input style="margin-left:25px;background-color:#ECECEC; margin-top:2px; margin-bottom:9px;width:300px;height:30px;"type="text" placeholder="Enter your first name">
-				 
-				</div>
-			   
-			    <span style="margin-left:30px; font-size:20px; position:realtive; top:5px; ">Last name</span>
-				<div id="middle name">
-				
-					 <input style="margin-left:25px;background-color:#ECECEC; margin-top:2px;height:30px; margin-bottom:9px;width:300px;"type="text" placeholder="Enter your last name">
-				</div>
-				 <span style="margin-left:30px; font-size:20px; position:realtive; top:5px; ">Email id</span>
-				<div id="email id">
-				
-					 <input style="margin-left:25px;background-color:#ECECEC; margin-top:15px;height:30px; margin-bottom:9px;width:300px;"type="text" placeholder="email id">
-				</div>
-			    <span style="margin-left:30px; font-size:20px; position:realtive; top:20px; ">Gender</span>
-				<div id="email id">
-				
-					 <input style="margin-left:25px; background-color:#ECECEC;margin-top:6px; "type="radio" name="n1">Male<br>
-					 <input style="margin-left:25px; background-color:#ECECEC;margin-top:6px; margin-bottom:8px;" type="radio" name="n1">Female<br>
-				</div>
-				 <span style="margin-left:30px; font-size:20px; position:realtive; top:5px; ">Password</span>
-					<div id="password">
-				
-					 <input style="margin-left:25px;background-color:#ECECEC; margin-top:15px;height:30px; margin-bottom:9px;width:300px;"type="text" placeholder="enter password">
-				</div>
-				<span style="margin-left:30px; font-size:20px; position:realtive; top:5px; "> Confirm Password</span>
-					<div id=" confirm password">
-				
-					 <input style="margin-left:25px; margin-top:15px;height:30px; background-color:#ECECEC;margin-bottom:9px;width:300px;"type="text" placeholder="confirm password">
-				</div>
-				 
-				 	
-				 <div id="submit"><a href="index.html">
-				  <input style="margin-left:25px; margin-top:20px;height:50px; margin-bottom:15px;width:100px;background-color:black ; color: white"type="submit" value="SUBMIT">
-				</div>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+         <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
+          <link rel="stylesheet" href="css/style.css">
+        <style type="text/css">
+        
+            #registration{
+            
+                height:340px;
+                
+                width:300px;
+                
+             position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 100px;
+                border:none;
+                border-radius:10px;
+                background-color:black;
+                
+                color: white;
+                position: relative;
+                opacity: 0.8;
+                
+                
+            }
+            
+            body{
+            
+            
+                background-position:absolute;
+                background-size:cover;
+                
+                
+            color: white;
+            
+            }
+            
 
-				
-				
-				
-				
-				 
-				
-			   
-			   
-		
-		</div>
-	</body>
+            
+        </style>
+        
+    </head>
+    
+<body>
+
+
+    <header>
+
+
+
+        <nav id="header-nav" class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="pull-left">
+            <div id="logo-img" alt="Logo image"></div>
+          </a>
+
+         
+
+          <button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-center" style="width: 420px">
+            <li id="navHomeButton" class="visible-xs active">
+            
+                <li id="lifestyle" >
+            <a href="lifestyles" class="left" style="color: black">
+            <br class=" hidden-xs">Lifestyle</a>
+            </li>           
+           
+            <li id="travel">
+            <a href="#" class="left" style="color: black">
+            <br class="hidden-xs">Travel</a>
+            </li>
+            
+            <li id="recipe">
+            <a href="#" class="left" style="color: black">
+            <br class="hidden-xs">Recipe</a>
+            </li>
+            
+            <li id="design" >
+            <a href="#" class="left" style="color: black">
+            <br class="hidden-xs">Design</a>
+            </li>
+           <li id="about" >
+            <a href="#" class="left" style="color: black">
+            <br class="hidden-xs"> About</a>
+            </li>
+          </li>
+           </ul>
+          <!-- #nav-list --> <div class="nav navbar-nav navbar-right">
+            <a href="#" class="fa fa-facebook pull-right  hidden-xs" style="font-size: 20px"></a>
+             <a href="#" class="fa fa-instagram pull-right  hidden-xs" style="font-size: 20px;"></a>
+             <a href="#" class="fa fa-twitter pull-right hidden-sm hidden-xs" style="font-size: 20px;"></a>
+          
+        
+     
+            <a href="in.html" class=" pull-right hidden-xs" id="hi">Sign In</a>
+</div>
+          
+  </div> 
+        </div><!-- .collapse .navbar-collapse -->
+      <!-- .container -->
+    </nav><!-- #header-nav -->
+        </header>
+       
+ <div class="container">
+       
+        <div id="registration">
+            <div id= "sign in " style="text-align: center;">
+                <span style="margin-left:10px; font-size:20px; margin-top:5px;font-family: 'Cinzel', serif;, sans-serif; color: white" >Sign Up</span>
+             </div>  
+               
+               
+               <span style="margin-left:10px; font-size:14px; top:10px;">First name</span>
+               <div id= "first name">
+               
+                 <input style="margin-left:10px;background-color:#ECECEC; margin-top:1px; margin-bottom:5px;width:200px;height:20px;"type="text" placeholder="Enter your first name">
+                 
+                </div>
+               
+                <span style="margin-left:10px; font-size:14px; top:10px; ">Last name</span>
+                <div id="middle name">
+                
+                     <input style="margin-left:10px;background-color:#ECECEC; margin-top:1px;height:20px; margin-bottom:5px;width:200px;"type="text" placeholder="Enter your last name">
+                </div>
+                 <span style="margin-left:10px; font-size:14px;  top:5px; ">Email id</span>
+                <div id="email id">
+                
+                     <input style="margin-left:10px;background-color:#ECECEC; margin-top:1px;height:20px; margin-bottom:5px;width:200px;"type="text" placeholder="email id">
+                </div>
+                <span style="margin-left:10px; font-size:15px;  top:5px; ">Gender</span>
+                <div id="email id" style="font-size: 12px;">
+                
+                     <input style="margin-left:10px; background-color:#ECECEC;margin-top:1px;height: 9px "type="radio" name="n1">Male<br>
+                     <input style="margin-left:10px; background-color:#ECECEC;margin-top:1px; margin-bottom:8px;height: 9px" type="radio" name="n1">Female<br>
+                </div>
+                 <span style="margin-left:10px; font-size:14px;  top:1px; ">Password</span>
+                    <div id="password">
+                
+                     <input style="margin-left:10px;background-color:#ECECEC; margin-top:1px;height:20px; margin-bottom:5px;width:200px;"type="text" placeholder="enter password">
+                </div>
+                <span style="margin-left:10px; font-size:14px; top:5px; "> Confirm Password</span>
+                    <div id=" confirm password">
+                
+                     <input style="margin-left:10px; margin-top:1px;height:20px; background-color:#ECECEC;margin-bottom:5px;width:200px;"type="text" placeholder="confirm password">
+                </div>
+                 
+                    
+                 <div id="submit"><a href="index.html">
+                  <input style="margin-left:10px; margin-top:20px;height:50px; margin-bottom:15px;width:100px;background-color:black ; color: white"type="submit" value="SUBMIT">
+        </a>        </div>
+
+                
+                
+                
+                
+                 
+                
+               
+               
+        
+        </div>
+    </div>
+
+    <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap
+ <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+    </body>
 </html>
-			
+        
