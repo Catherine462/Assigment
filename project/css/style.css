@@ -1,5 +1,5 @@
 body{
-	background-color:#F0F0F0;
+  background-color:#F0F0F0;
     font-size: 16px;
     
     font-family: 'Raleway', sans-serif;
@@ -27,8 +27,8 @@ background:#F0F0F0;
 #left{
   bottom: 50px;
 }*/
-#logo-img{	
-	
+#logo-img{  
+  
    background: url("../b.jpg");
     background-repeat: no-repeat;
      width: 150px;
@@ -62,15 +62,15 @@ footer {
     margin-top: 5px;
 }
 #hi{
-	box-sizing: border-box;
-	display: inline-block;
-	text-decoration: none;
-	margin-top: 10px;
-	margin-right: 0px;
-	
-	border-radius: 5em;
-	color:black;
-	font-size:13px;
+  box-sizing: border-box;
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-right: 0px;
+  
+  border-radius: 5em;
+  color:black;
+  font-size:13px;
     
     padding: 10px 15px;
      border: solid black;
@@ -82,8 +82,8 @@ footer {
 }
 
 #hi:hover{
-	background: black;
-	color: #F0F0F0;
+  background: black;
+  color: #F0F0F0;
 }
 .side a{
   margin-right: 5px;
@@ -96,11 +96,11 @@ footer {
 /*.navbar-nav > li  { background-color:#F0F0F0;
  }
  #nav-list > li {
- 	color: black;
+  color: black;
  }*/
  .panel-footer{
- 	background-color: black;
- 	color: white;
+  background-color: black;
+  color: white;
  }
 
 
@@ -109,16 +109,16 @@ footer {
 
 
 #info a{
-	text-decoration: none;
-	margin-top: 25px;
-	margin-right: 15px;
-	color: black;
-	
+  text-decoration: none;
+  margin-top: 25px;
+  margin-right: 15px;
+  color: black;
+  
 }
 
  a.left{
- 	position: relative;
- 	color: black;
+  position: relative;
+  color: black;
  }
  a.left:before {
   content: "";
@@ -137,7 +137,7 @@ a.left:hover:before {
   width: 100%;
 }
 a #lifestyle{
-	color: black;
+  color: black;
 }
 
 #slides{
@@ -385,6 +385,160 @@ font-family: 'Cinzel', serif;
   to {opacity: 1}
 
 }
+#content-box,#content{
+  margin-left: 20px;
+  font-family: 'Lora', serif;
+}
+
+.column {
+  float: left;
+  
+  padding: 10px;
+   /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.left {
+  width: 55%;
+}
+
+.right {
+  width: 35%;
+ margin-left: 50px;
+}
+
+#common-tile{
+ background-position: center;
+  
+  height: 150px;
+  
+  margin-left:20px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  
+  text-align: center;
+  border-color: solid black;
+  border-width: 5px;
+}
+#text-tile{
+   background-color:white;
+  width: 320px;
+  height: 150px;
+  font-size: 20px;
+  margin-left:10px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  color: black;
+  text-align: center;
+  border-color:black;
+  border-width: 5px;
+  text-decoration-line: none;
+}
+
+.row a:hover{
+  text-decoration:none; 
+  
+}
+.row p{
+  text-align: left ;
+  text-decoration:none;
+  color:#606060;
+  font-size: 15px;
+  margin-left: 5px;  
+}
+#instagram-tile div{
+   background-position: center;
+  
+  height: 150px;
+  
+  margin-left:20px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  
+  text-align: center;
+  border-color: solid black;
+  border-width: 5px;
+}
+
+.rows {
+  display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.columns {
+  flex: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+
+#pic{
+  height :500px;
+}
+#pic-tile{
+background-position: center;
+  
+  
+  margin-left:50px;
+  margin-bottom: 10px;
+  margin-top: 200px;
+  
+  text-align: center;
+  border-color: solid black;
+  border-width: 5px;
+  height:600px;
+}
+.centers {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+   background-color: white;
+  
+   width: 100%
+  
+}
+#tiles{
+  position: relative;
+}
+
+#texts-tile{
+   background-color:white;
+  width: 350px;
+  height:400px;
+  
+  font-size: 20px;
+  margin-left:40px;
+  margin-bottom: 10px;
+  margin-top: 50px;
+  color: black;
+  text-align: center;
+  border-color:black;
+  border-width: 5px;
+  text-decoration-line: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /************************MEDIAA QUERIES**
 @media(min-width: 1200px){
   .navbar .container{
